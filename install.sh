@@ -24,7 +24,7 @@ cp ./.zshrc ~
 # save current zshrc
 mv ~/.zshrc ~/.zshrc.bak
 
-sudo sh -c "$(wget -O- https://raw.githubusercontent.com/deluan/zsh-in-docker/master/zsh-in-docker.sh)" -- \
+sh -c "$(wget -O- https://raw.githubusercontent.com/deluan/zsh-in-docker/master/zsh-in-docker.sh)" -- \
     -t agnoster
 
 # remove newly created zshrc
